@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+        <ul>
+            <li>tres punto uno</li>
+            <li>tres punto dos</li>
+            <li>tres punto tres</li>
+        </ul>
+    </ul>
+
+    <ol>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+        <ol>
+            <li>tres punto uno</li>
+            <li>tres punto dos</li>
+            <li>tres punto tres</li>
+        </ol>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pan</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Leche</td>
+                <td>$1500</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
